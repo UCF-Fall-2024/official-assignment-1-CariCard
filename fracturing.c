@@ -56,5 +56,5 @@ printf("The distance between two points is: %d", distance);
  2 * (height + width)=perimeter
 printf("The perimeter of the city encompassed by your request is: %d", perimeter);
 
-
+return 0;
 }
