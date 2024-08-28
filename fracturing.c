@@ -5,16 +5,17 @@ Function for Calculating Perimeter, Implementation Details
 */
 
 #include <stdio.h>
+#include <math.h>
 
 int main()
 {
 
-
-int width;
-int height;
+PI = 3.14;
+double calculate_width;
+double calculate_height;
 float distance;
-int area;
-int perimeter;
+double calculate_area;
+double calculae_perimeter;
 
 
 //getting info to calculate width
@@ -29,7 +30,6 @@ scanf("%d", &height);
 printf("The height is: %d", height);
 
 //calculate area
-
 height*width= area
 printf("The area is: %d", area);
 
