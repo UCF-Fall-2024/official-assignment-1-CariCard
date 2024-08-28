@@ -19,13 +19,13 @@ For full credit on this assignment, please follow the PDF found within the repo.
 
 The grading for this project will be broken down as follows:
 
-* **Part One: Function for Determining current grade -** (15 points total)
-* **Part Two: Function for Processing Grades -** (25 points total)
-* **Part Three: Function for Determining Max Items -** (20 points total)
-* **Part Four: Function for  TBD-** (20 points total)
-* **Part Five: Function for Calculating Perimeter -** (20 points total)
-* **Part Six: Implementation Details -** (10 points total)
-* **Coding Style & Comments -** (10 points total) - Check out the [C Style Guide](https://cop-3223-fall-2024.github.io/Overview/assignments/style-guide/) for more info.
+- Part One: Function for calculating width - (10 points total)
+- Part Two: Function for Calculating Height - (10 points total)
+- Part Three: Function for Calculating Distance - (20 points total)
+- Part Four: Function for Calculating Area - (20 points total)
+- Part Five: Function for Calculating Perimeter - (20 points total)
+- Part Six: Implementation Details - (10 points total)
+- Coding Style & Comments -** (10 points total) - Check out the [C Style Guide](https://cop-3223-fall-2024.github.io/Overview/assignments/style-guide/) for more info.
 
 ### Quick Testing Feedback
 
