@@ -7,16 +7,15 @@ Function for Calculating Perimeter, Implementation Details
 #include <stdio.h>
 #include <math.h>
 
-int main();
 
+#define PI = 3.14159; // circle shape
 
-#define PI = 3.14; // circle shape
- 
-double calculate_width;
-double calculate_height;
-float distance;
-double calculate_area;
-double calculae_perimeter;
+//no global variables
+//double calculate_width;
+//double calculate_height;
+//float distance;
+//double calculate_area;
+//double calculae_perimeter;
 
 int main() // needs two arguments 
 {
