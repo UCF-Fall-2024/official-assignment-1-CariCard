@@ -25,6 +25,7 @@ double calculate_distance() // no arguments
     int y1;
     int y2;
 
+    printf("Calculate distance: \n");
     printf("What is the distance?: \n");
     printf("Enter x1: \n");
     scanf("%d", &x1);
@@ -54,6 +55,7 @@ double calculate_perimeter()
     //int y1;
     //int y2;
 
+    printf("Calculate perimeter: \n");
     printf("what is the height? \n");
     scanf("%d", &height);
     printf("What is the width? \n");
@@ -78,6 +80,7 @@ double calculate_area()
     //int y1;
     //int y2;
 
+    print("Calculate area: \n");
     printf("what is the radius? \n");
     scanf("%d", &radius);
     area = PI * radius * radius;
@@ -98,7 +101,8 @@ double calculate_width()
     //int x2;
     //int y1;
     //int y2;
-    
+
+    print("Calculate width: \n");
     printf("What is the length?: \n");
     scanf("%d", &length);
     printf("What is the area?: \n");
@@ -115,10 +119,15 @@ double calculate_width()
 double calculate_height()
 {
     int height;
+    int area;
+    int base;
 
-    printf("What is the height?: \n");
-    scanf("%d", &height);
-    //missing formula
+    print("Calculate height: \n");
+    printf("What is the area?: \n");
+    scanf("%d", &area);
+    printf("What is the base? \n");
+    scanf("%d", &base);
+    height = 2*area/base
 
     //printf("Point #1 entered x1 = - ", x1; "y1 = - ", y1);
     //printf("Point #2 entered x2 = - ", x2; "y2 = - ", y2);
