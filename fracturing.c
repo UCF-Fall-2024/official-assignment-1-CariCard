@@ -37,9 +37,11 @@ double calculate_distance() // no arguments
     scanf("%d", &y2);
 
     distance = ((x2-x1)*(x2-x1))+((y2-y1)*(y2-y1));
-    printf("Point #1 entered x1 = - ", x1, "y1 = - ", y1);
-    printf("Point #2 entered x2 = - ", x2, "y2 = - ", y2);
-    printf("The distance between two points is: %d", distance);
+    printf("Point #1 entered x1 = - ", x1); 
+    printf("y1 = - \n", y1);
+    printf("Point #2 entered x2 = - ", x2);
+    printf("y2 = - ", y2);
+    printf("The distance between two points is: %lf", distance);
 
     // return 
 }
@@ -50,10 +52,7 @@ double calculate_perimeter()
     int perimeter;
     int height;
     int width;
-    //int x1;
-    //int x2;
-    //int y1;
-    //int y2;
+    
 
     printf("Calculate perimeter: \n");
     printf("what is the height? \n");
@@ -62,8 +61,6 @@ double calculate_perimeter()
     scanf("%d", &width);
     perimeter = 2 * (height + width);
 
-    //printf("Point #1 entered x1 = - ", x1, "y1 = - ", y1);
-    //printf("Point #2 entered x2 = - ", x2, "y2 = - ", y2);
     printf("The perimeter of the city encompassed by your request is: %d", perimeter);
 
     //return scale 1-5?
@@ -73,20 +70,15 @@ double calculate_perimeter()
 double calculate_area()
 {
     #define PI = 3.14159; // circle shape
-    int area;
-    int radius;
-    //int x1;
-    //int x2;
-    //int y1;
-    //int y2;
+    double area;
+    double radius;
 
-    print("Calculate area: \n");
+    printf("Calculate area: \n");
     printf("what is the radius? \n");
-    scanf("%d", &radius);
+    scanf("%lf", &radius);
     area = PI * radius * radius;
-    //printf("Point #1 entered x1 = - ", x1, "y1 = - ", y1);
-    //printf("Point #2 entered x2 = - ", x2, "y2 = - ", y2);
-    printf("The area of the city encompassed by your request is: %d", area);
+
+    printf("The area of the city encompassed by your request is: %lf", area);
     
     //return scale 1-5?
 }
@@ -97,19 +89,14 @@ double calculate_width()
     int area;
     int length;
     int width;
-    //int x1;
-    //int x2;
-    //int y1;
-    //int y2;
 
-    print("Calculate width: \n");
+    printf("Calculate width: \n");
     printf("What is the length?: \n");
     scanf("%d", &length);
     printf("What is the area?: \n");
     scanf("%d", &area);
     width = area/length;
-    //printf("Point #1 entered x1 = - ", x1, "y1 = - ", y1);
-    //printf("Point #2 entered x2 = - ", x2, "y2 = - ", y2);
+    
     printf("The width of the city encompassed by your request is: %d", width);
     
     //return
@@ -122,15 +109,13 @@ double calculate_height()
     int area;
     int base;
 
-    print("Calculate height: \n");
+    printf("Calculate height: \n");
     printf("What is the area?: \n");
     scanf("%d", &area);
     printf("What is the base? \n");
     scanf("%d", &base);
-    height = 2*area/base
+    height = 2*area/base;
 
-    //printf("Point #1 entered x1 = - ", x1; "y1 = - ", y1);
-    //printf("Point #2 entered x2 = - ", x2; "y2 = - ", y2);
     printf("The height of the city encompassed by your request is: %d", height);
  
     //return
